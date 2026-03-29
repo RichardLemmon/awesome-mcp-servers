@@ -13,7 +13,7 @@ A curated list of awesome Model Context Protocol (MCP) servers. MCP is an open p
 > - **System Access**: Full access to files, network, and system resources
 > - **Code Execution**: Can run any command on your machine
 > - **Prompt Injection**: Malicious prompts could trigger unintended server actions
-> - **Data Exposure**: Sensitive data may be accessed or leaked
+> - **Data Exposure**: Sensitive data may be accessed or leaed
 >
 > **Best Practices:**
 > - Use official implementations (marked with ⭐) when available
@@ -371,6 +371,7 @@ See [Helpful Tools & Utilities](#helpful-tools-&-utilities) section for tools to
 
 > Tools and servers that assist with software development workflows. Enables integration with development-related services and APIs.
 
+- [AgentTeam](https://github.com/RichardLemmon/AgentTeam) - A reusable AI software development team built on MCP. 13 specialized agents (Project Manager, Backend, Frontend, QA, Security, DevOps, UX, etc.) collaborate via SQLite. 44 MCP tools across 12 domains. All discussions and decisions are stored in the database so agents get back up to speed immediately when re-loaded. One-command install; works with Claude Code, Cursor, and Windsurf.
 - <img src="https://www.svgrepo.com/show/107853/uranus.svg" height="14"/> [CentralMind/Gateway](https://github.com/centralmind/gateway) - MCP and MCP SSE Server that automatically generate production ready API based on database schema and data. Supports PostgreSQL, Clickhouse, MySQL, Snowflake, BigQuery, Supabase
 - <img src="http://currents.dev/favicon.ico" height="14"/> [Currents](https://github.com/currents-dev/currents-mcp)<sup><sup>⭐</sup></sup> - Enable AI Agents to fix Playwright test failures reported to [Currents](https://currents.dev).
 - 🐙 [Octocode](https://github.com/bgauryy/octocode-mcp) -  AI-powered developer assistant that enables advanced research, analysis and discovery and code generation across GitHub and NPM realms in realtime.
